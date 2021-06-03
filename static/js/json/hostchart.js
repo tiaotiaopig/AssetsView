@@ -47,7 +47,7 @@ myChart.setOption(option);
 $.ajax({
     type: "post",
     async: false, //同步执行
-    url: "http://10.65.10.195/AssetsView/Assets/getJsonassets",
+    url: "http://localhost/AssetsView/Assets/getJsonassets",
     dataType: "json", //返回数据形式为json
     success: function(data) {
         var other=0;

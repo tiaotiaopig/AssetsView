@@ -54,7 +54,7 @@ myChart.setOption(option);
 $.ajax({
     type: "post",
     async: true, //同步执行
-    url: "http://10.65.10.195/AssetsView/Topology/getJsontopo",
+    url: "http://localhost/AssetsView/Topology/getJsontopo",
     dataType: "json", //返回数据形式为json
     success: function(data) {
         //alert(data['categories'][1].name);
